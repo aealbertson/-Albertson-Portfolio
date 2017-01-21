@@ -1,0 +1,74 @@
+#title {
+  position: relative;
+  overflow: hidden;
+}
+
+#title h1 {
+  padding: 30px;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 75px;
+}
+
+#title img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0.7;
+}
+
+body{
+  background:#848484;
+}
+
+ol li{
+  font-family: monospace;
+  font-size: 20px;
+  /*background: #edebcb;*/
+  padding: 10px;
+  color: white;
+}
+
+p{
+  font-family: monospace;
+  font-size: 20px;
+  color: white;
+}
+
+#button{
+  background: black;
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+}
+
+#button p{
+  position: relative;
+  text-align: center;
+  padding: 5px;
+  bottom: 25%;
+}
+
+nav {
+  list-style-type: none;
+  background: #edebcb;
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: monospace;
+  font-size: 20px;
+  padding: 20px;
+  color: black;
+  text-transform: uppercase;
+}
+
+.navbar {
+  display: inline-block;
+  height: 20px
+}
